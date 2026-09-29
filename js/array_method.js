@@ -37,8 +37,7 @@ const incompleteCount = jobs.reduce((count, job) => {
 
 console.log(incompleteCount);
 
-// 정렬
-
+// sort() : 원본 배열을 정렬함.
 // 숫자를 그냥 정렬하려면 주의해야함.
 // 기본 sort() 는 숫자를 문자열 처럼 비교함. 숫자 정렬에는 비교 함수를 전달 해야함.
 const nums = [111, 21];
